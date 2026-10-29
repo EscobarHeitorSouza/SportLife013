@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#101010">
+<title>Sport Life | Catálogo de camisetas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top"><a class="brand" href="#top"><span class="brand-icon">SL<small>013</small></span><span>SPORT LIFE<small>A PAIXÃO VESTE A CAMISA</small></span></a><a class="instagram" href="https://www.instagram.com/sport.life013/" target="_blank" rel="noopener">Instagram ↗</a></header>
+<main id="top">
+<section class="hero"><div class="eyebrow">CATÁLOGO SPORT LIFE</div><h1>SUA PAIXÃO.<br><em>SUA CAMISA.</em></h1><p>Explore os modelos, toque nas fotos para ver os detalhes em tela cheia e encontre a camiseta ideal para você.</p><a href="#catalogo" class="gold-button">VER CAMISETAS ↓</a><div class="hero-stamp">EST. 013 <span>●</span> FUTEBOL / CULTURA / ESTILO</div></section>
+<section id="catalogo" class="catalog"><div class="section-head"><div><div class="eyebrow">ENCONTRE SEU MODELO</div><h2>CATÁLOGO <em>DE CAMISETAS</em></h2></div><span id="total">0 produtos</span></div>
+<div class="category-tabs" role="tablist" aria-label="Categorias"><button class="tab active" data-category="Todas">Todas</button><button class="tab" data-category="Masculinas">Masculinas</button><button class="tab" data-category="Femininas">Femininas</button></div>
+<div class="toolbar"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Buscar camiseta..." aria-label="Buscar camiseta"></label></div>
+<p class="hint" id="hint">As camisetas são carregadas das pastas publicadas neste repositório.</p>
+<div id="groups"></div><div id="empty" class="empty"><span>✦</span><h3>Seu catálogo começa aqui</h3><p>Adicione as imagens ao repositório. Organize assim: <b>camisetas/Masculinas/Nome do produto/fotos</b> e <b>camisetas/Femininas/Nome do produto/fotos</b>.</p></div>
+</section>
+</main>
+<footer><span>SPORT LIFE © 2026</span><span>SEU ESTILO, SUA HISTÓRIA.</span></footer>
+<div class="viewer" id="viewer" hidden role="dialog" aria-modal="true" aria-label="Visualização da camiseta"><button class="viewer-close" id="viewerClose" aria-label="Fechar">×</button><button class="viewer-arrow prev" id="prev" aria-label="Foto anterior">‹</button><div class="viewer-content"><div class="viewer-image-wrap" id="imageWrap"><img id="viewerImage" alt="Foto ampliada da camiseta"></div><div class="viewer-details"><span class="viewer-category" id="viewerCategory"></span><h2 id="viewerTitle"></h2><div class="viewer-count" id="viewerCount"></div><p>Arraste para os lados para ver outras fotos. Amplie com dois dedos para conferir os detalhes.</p></div></div><button class="viewer-arrow next" id="next" aria-label="Próxima foto">›</button></div>
+<script src="script.js"></script>
+</body></html>

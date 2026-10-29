@@ -1,0 +1,7 @@
+1) Coloque as fotos dentro de camisetas/Masculinas/NOME DO PRODUTO/ ou camisetas/Femininas/NOME DO PRODUTO/.
+2) Nomeie fotos em ordem: 01-frente.jpg, 02-costas.jpg, 03-detalhe.jpg.
+3) Envie todos os arquivos para a raiz do seu repositório GitHub, inclusive a pasta .github.
+4) Configure GitHub Pages para usar GitHub Actions em Settings > Pages.
+5) Troque WHATSAPP_NUMBER no script.js pelo número real da loja.
+6) Faça commit. O GitHub gera o catálogo e publica o site automaticamente.
+Leia README.md para instruções completas.
